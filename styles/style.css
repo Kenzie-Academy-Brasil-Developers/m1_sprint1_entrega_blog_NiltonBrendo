@@ -150,10 +150,10 @@ body {
 }
 
 .image-roberto {
-    width: 400px;
-    height: 400px;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
-    position: relative;
+    /* position: relative; */
 }
 
 .container {
