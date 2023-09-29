@@ -27,18 +27,18 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 1.56rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 2.18rem;
     transition: .3s;
 }
 
@@ -55,42 +55,42 @@ body {
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 37.5rem;
 }
 
 .home-content h1 {
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 .home-content h3 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     color: #00abf0;
 }
 
 .home-content p {
-    font-size: 16px;
-    margin: 20px 0 40px;
+    font-size: 1rem;
+    margin: 1.25rem 0 2.5rem;
 }
 
 .home-content .btn-box {
     display: flex;
     justify-content: space-between;
-    width: 345px;
-    height: 50px;
+    width: 21.56rem;
+    height: 3.125rem;
 }
 
 .btn-box a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px; 
+    width: 9.375rem; 
     height: 100%;
     background-color: #00abf0;
     border: 2px solid #00abf0;
-    border-radius: 8px;
-    font-size: 19px;
+    border-radius: 0.5rem;
+    font-size: 1.1875rem;
     color: #081b29;
     text-decoration: none;
     font-weight: 600;
@@ -104,8 +104,8 @@ body {
 
 .home-sci {
     position: absolute;
-    bottom: 40px;
-    width: 170px;
+    bottom: 2.5rem;
+    width: 10.625rem;
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -116,12 +116,12 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: transparent;
     border: 2px solid #00abf0;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.750rem;
     color: #00abf0;
     text-decoration: none;
     z-index: 1;
@@ -150,10 +150,9 @@ body {
 }
 
 .image-roberto {
-    width: 25rem;
-    height: 25rem;
+    width: 19rem;
+    height: 19rem;
     border-radius: 50%;
-    /* position: relative; */
 }
 
 .container {
@@ -163,65 +162,14 @@ body {
 }
 
 .aside {
-    padding: 20px 10%;
+    padding: 1.25rem 10%;
     z-index: 100;
 }
 
-.contact {
-    min-height: auto;
-    padding: 7rem;
+@media(max-width: 480px) {
+    .image-roberto {
+        width: 0;
+        height: 0;
+    }
 }
 
-.contact form {
-    max-width: 70rem;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.contact form .input-box {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contact form .input-box .input-field {
-    position: relative;
-    width: 49%;
-    margin: .8rem 0;
-}
-
-.contact form .input-box .input-field input,
-.contact form .textarea-field textarea {
-    width: 100%;
-    height: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: #00abf0;
-    background-color: transparent;
-    border-radius: .6rem;
-    border: .2rem solid #00abf0;
-}
-
-.btn {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 150px; 
-    height: 100%;
-    background-color: #00abf0;
-    border: 2px solid #00abf0;
-    border-radius: 8px;
-    font-size: 19px;
-    color: #081b29;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-.heading {
-    font-size: 56px;
-    font-weight: 700;
-}
