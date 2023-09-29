@@ -166,10 +166,28 @@ body {
     z-index: 100;
 }
 
-@media(max-width: 480px) {
+@media(width <= 480px) {
     .image-roberto {
         width: 0;
         height: 0;
     }
 }
 
+@media(width >= 481px) and (width <= 767px) {
+    .image-roberto {
+        width: 0;
+        height: 0;
+    }
+}
+@media(width >= 768px) and (width <= 991px) {
+
+}
+
+@media(width >= 992px) and (width <= 1199px) {
+
+}
+
+@media(width >= 1200px) and (width <= 1919px){
+
+}
+@media(width >= 1920px){}
