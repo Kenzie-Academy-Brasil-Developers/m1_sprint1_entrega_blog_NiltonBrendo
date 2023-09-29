@@ -150,8 +150,8 @@ body {
 }
 
 .image-roberto {
-    width: 19rem;
-    height: 19rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
 }
 
@@ -164,6 +164,54 @@ body {
 .aside {
     padding: 1.25rem 10%;
     z-index: 100;
+}
+
+#certification  {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.certification-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.certification-list i {
+    color: #00abf0;
+}
+
+.certification-h1 {
+    font-size: 2.5rem;
+}
+
+.comentarios h1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+.name-user{
+    font-size: 1.5rem;
+}
+
+.image-user{
+    height: 3.125rem;
+    border-radius: 50%;
+}
+
+.commenter-user{
+
 }
 
 @media(width <= 480px) {
@@ -179,15 +227,24 @@ body {
         height: 0;
     }
 }
-@media(width >= 768px) and (width <= 991px) {
+@media(width >= 768px) and (width <= 1030px) {
+    .image-roberto {
+        width: 0;
+        height: 0;
+    }
+
+    .container {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(width >= 1031px) and (width <= 1242px) {
+    .image-roberto {
+        width: 17rem;
+        height: 17rem;
+    }
 
 }
 
-@media(width >= 992px) and (width <= 1199px) {
 
-}
-
-@media(width >= 1200px) and (width <= 1919px){
-
-}
-@media(width >= 1920px){}
