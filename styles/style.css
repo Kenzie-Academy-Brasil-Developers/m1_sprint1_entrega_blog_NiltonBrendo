@@ -245,6 +245,19 @@ ul li:hover {
         height: 0;
     }
 
+    .navbar a {
+        justify-content: flex-end;
+        gap: 0,275rem;
+        font-size: medium;
+        margin-left: 0.250rem;
+        display: flex;
+    }
+
+    .home-content {
+        height: max-content;
+        min-height: max-content;
+    }
+
     body {
         height: 100vh;
         width: 100vw;
@@ -257,9 +270,9 @@ ul li:hover {
             display: none;
     }
     
-    .home-content {
-        width: 200%;
-        max-width: none;
+    .home.home-sci {
+        /* width: 200%; */
+        /* max-width: none; */
     }
     
     body {
