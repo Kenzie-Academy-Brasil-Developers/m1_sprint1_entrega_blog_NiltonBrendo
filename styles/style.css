@@ -247,10 +247,11 @@ ul li:hover {
 
 @media(height < 680px) {
     .home-sci {
-        width: 60vh;
+        width: 80%;
         display: flex;
         justify-content: flex-end;
-        gap: 10px;
+        gap: 22px;
+        position: fixed;
     }
 
 }
@@ -261,6 +262,8 @@ ul li:hover {
         position: fixed;
         z-index: 0;
     }
+
+    
 
     .mobile-menu-icon {
         background-color: transparent;
