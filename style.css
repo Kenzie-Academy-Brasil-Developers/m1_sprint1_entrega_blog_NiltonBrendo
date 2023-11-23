@@ -387,6 +387,26 @@ span {
     font-size: 1.5rem;
 }
 
+#consultorio {
+    background: var(--second-bg-color);
+}
+
+.consul-endereco {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    gap: 3.6rem;
+
+}
+
+.consul-endereco .paragraph-endereco {
+    border-left: .2rem solid var(--main-color)
+}
+
+.paragraph-endereco {
+    padding-left: 2rem;
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
