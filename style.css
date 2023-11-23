@@ -396,7 +396,7 @@ span {
     flex-direction: row;
     font-size: 2rem;
     gap: 3.6rem;
-
+    margin-top: 35px;
 }
 
 .consul-endereco .paragraph-endereco {
@@ -406,6 +406,52 @@ span {
 .paragraph-endereco {
     padding-left: 2rem;
 }
+
+.consultorio-content-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.consultorio .heading {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.carrossel-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+#img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+#img img {
+    width: 300px;
+    min-width: 300px;
+}
+
+
 
 @media (max-width: 1200px) {
     html {
