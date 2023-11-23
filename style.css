@@ -354,6 +354,7 @@ span {
     border-radius: .6rem;
     margin-bottom: 2rem;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .education-content .content::before {
