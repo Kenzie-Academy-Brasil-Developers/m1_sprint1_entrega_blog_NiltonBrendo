@@ -463,6 +463,22 @@ span {
     }
 }
 
+@media (max-width: 352px) {
+    .consul-endereco, .mapa {
+        width: 150px;
+        height: 150px;
+    }
+
+    .consul-endereco {
+        /* justify-content: center; */
+        width: 90vw;
+    }
+
+    .consul-endereco .paragraph-endereco {
+        font-size: 1.1rem;
+    }
+}
+
 
 @media (max-width: 1200px) {
     html {
