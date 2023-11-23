@@ -53,5 +53,5 @@ function carrossel() {
 
     imgs.style.transform = `translateX(${-idx * 300}px)`;
 }
-
 setInterval(carrossel, 3000);
+

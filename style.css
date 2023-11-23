@@ -432,6 +432,7 @@ span {
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    border: .2rem solid var(--main-color);
 }
 
 .container {
@@ -451,6 +452,16 @@ span {
     min-width: 300px;
 }
 
+@media (max-width: 512px){
+    .consul-endereco, .mapa {
+        width: 200px;
+        height: 200px;
+    }
+
+    .consul-endereco .paragraph-endereco {
+        font-size: 1.3rem;
+    }
+}
 
 
 @media (max-width: 1200px) {
