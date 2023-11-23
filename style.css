@@ -461,6 +461,15 @@ span {
     .consul-endereco .paragraph-endereco {
         font-size: 1.3rem;
     }
+
+    .consul-endereco {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+        width: 100%;
+
+    }
 }
 
 @media (max-width: 352px) {
@@ -530,6 +539,13 @@ span {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+}
+
+@media (width <= 650px) {
+    .consul-endereco .mapa {
+        width: 250px;
+        height: 250px;
     }
 }
 
