@@ -439,5 +439,10 @@ span {
     }
 }
 
+@media (height <= 655px) {
+    .home-sci {
+        display: none;
+    }
+}
 
 
