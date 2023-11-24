@@ -505,6 +505,10 @@ width: 100%;
     color: var(--main-color);
 }
 
+.icon-head {
+    background: transparent;
+}
+
 @media (max-width: 512px){
     .consul-endereco, .mapa {
         width: 200px;
@@ -613,5 +617,34 @@ width: 100%;
         display: none;
     }
 }
+
+@media (height <= 916px) {
+    #education {
+        height: 110vh;
+    }
+}
+
+@media (height <= 839px) {
+    #education {
+        height: 120vh;
+    }
+}
+
+@media (height <= 764px) {
+    #education {
+        height: 130vh;
+    }
+}
+
+@media (height <= 588px) {
+    .home-content h1 {
+        margin-top: 30px;
+    }
+
+    #education {
+        height: 140vh;
+    }
+}
+
 
 
