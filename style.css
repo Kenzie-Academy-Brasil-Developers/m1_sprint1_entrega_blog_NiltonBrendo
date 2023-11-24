@@ -430,9 +430,9 @@ span {
 .carrossel {
     box-shadow: 2px 2px 4px black;
     overflow: hidden;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    height: 397px;
+    width: 530px;
+    /* border-radius: 50%; */
     border: .2rem solid var(--main-color);
 }
 
@@ -444,13 +444,15 @@ span {
 
 #img {
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    height: 397px;
+    width: 530px;
+    /* //470 x 246 */
+    /* tava 300 300 */
 }
 
 #img img {
-    width: 300px;
-    min-width: 300px;
+    width: 530px;
+    min-width: 530px;
 }
 
 .footer {
@@ -507,6 +509,30 @@ width: 100%;
 
 .icon-head {
     background: transparent;
+}
+@media(width < 650) {
+    #img img {
+        width: 300px;
+        min-width: 300px;
+        
+    }
+
+    #img {
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+        /* //470 x 246 */
+        /* tava 300 300 */
+    }
+
+    .carrossel {
+        box-shadow: 2px 2px 4px black;
+        overflow: hidden;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: .2rem solid var(--main-color);
+    }
 }
 
 @media (max-width: 512px){
@@ -599,12 +625,36 @@ width: 100%;
     }
 }
 
-@media (width <= 650px) {
+@media (width < 650px) {
     .consul-endereco .mapa {
         width: 250px;
         height: 250px;
     }
+
+    #img img {
+        width: 300px;
+        min-width: 300px;
+        
+    }
+
+    #img {
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+        /* //470 x 246 */
+        /* tava 300 300 */
+    }
+
+    .carrossel {
+        box-shadow: 2px 2px 4px black;
+        overflow: hidden;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: .2rem solid var(--main-color);
+    }
 }
+
 
 @media (height <= 655px) {
     .home-sci {
@@ -615,6 +665,9 @@ width: 100%;
 @media (height <= 732px) {
     .education .heading {
         display: none;
+    }
+    #consultorio {
+        /* margin-bottom: 25px; */
     }
 }
 
@@ -643,6 +696,16 @@ width: 100%;
 
     #education {
         height: 140vh;
+    }
+}
+
+@media (height <= 859px) {
+    #consultorio {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+
     }
 }
 

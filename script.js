@@ -42,16 +42,42 @@ window.onscroll = () => {
 const imgs = document.getElementById("img");
 const img = document.querySelectorAll("#img img");
 
+
+
 let idx = 0;
+function mediaQuery() {
+    
+    var largura = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+    
+    if(largura < 650) {
+        idx++;
+        
+        if(idx > img.length - 1) {
+            idx = 0;
+        }
 
-function carrossel() {
-    idx++;
 
-    if(idx > img.length - 1) {
-        idx = 0;
+
+        imgs.style.transform = `translateX(${-idx * 300}px)`;
+        
+        setInterval(carrosselMobile, 6000);
+    } else {
+        idx++;
+
+        if(idx > img.length - 1) {
+            idx = 0;
+        }
+
+
+
+        imgs.style.transform = `translateX(${-idx * 530}px)`;
+        setInterval(carrosselPc, 6000);
     }
-
-    imgs.style.transform = `translateX(${-idx * 300}px)`;
 }
-setInterval(carrossel, 3000);
+
+setInterval(mediaQuery, 3000)
+
+
 
