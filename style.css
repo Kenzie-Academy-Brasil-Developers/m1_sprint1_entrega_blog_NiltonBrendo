@@ -510,30 +510,6 @@ width: 100%;
 .icon-head {
     background: transparent;
 }
-@media(width < 650) {
-    #img img {
-        width: 300px;
-        min-width: 300px;
-        
-    }
-
-    #img {
-        object-fit: cover;
-        height: 300px;
-        width: 300px;
-        /* //470 x 246 */
-        /* tava 300 300 */
-    }
-
-    .carrossel {
-        box-shadow: 2px 2px 4px black;
-        overflow: hidden;
-        height: 300px;
-        width: 300px;
-        border-radius: 50%;
-        border: .2rem solid var(--main-color);
-    }
-}
 
 @media (max-width: 512px){
     .consul-endereco, .mapa {
